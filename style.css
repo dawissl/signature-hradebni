@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  padding: 40px;
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.form input {
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+.form button {
+  margin-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.preview {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.hint {
+  margin-top: 20px;
+  color: #666;
+}

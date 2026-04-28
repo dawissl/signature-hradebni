@@ -6,12 +6,11 @@ async function generate() {
   const phone = document.getElementById("phone").value;
   const email = document.getElementById("email").value;
 
-  let result = template
-    .replace("{{name}}", name)
-    .replace("{{position}}", position)
-    .replace("{{phone}}", phone)
-    .replace("{{email}}", email)
-    .replace("{{email}}", email);
+ let result = template
+  .replace(/{{name}}/g, name)
+  .replace(/{{position}}/g, position)
+  .replace(/{{phone}}/g, phone)
+  .replace(/{{email}}/g, email);
 
   document.getElementById("signature").innerHTML = result;
 }

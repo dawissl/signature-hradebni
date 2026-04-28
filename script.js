@@ -10,7 +10,7 @@ async function generate() {
 
   const workplaceMap = {
     H1: "",
-    H2: "Budova H2 – Hradecká 647, 500 02 Hradec Králové"
+    H2: "pracoviště Hradecká 647, 500 02 Hradec Králové"
   };
 
   let result = template

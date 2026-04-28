@@ -9,7 +9,7 @@ async function generate() {
   const workplaceValue = document.querySelector('input[name="workplace"]:checked').value;
 
   const workplaceMap = {
-    H1: "Budova H1 – Hradební 1029/2, 500 03 Hradec Králové",
+    H1: "",
     H2: "Budova H2 – Hradecká 647, 500 02 Hradec Králové"
   };
 

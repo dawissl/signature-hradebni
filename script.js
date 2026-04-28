@@ -6,11 +6,7 @@ async function generate() {
   const phone = document.getElementById("phone").value;
   const email = document.getElementById("email").value;
 
- let result = template
-  .replace(/{{\s*name\s*}}/g, name)
-  .replace(/{{\s*position\s*}}/g, position)
-  .replace(/{{\s*phone\s*}}/g, phone)
-  .replace(/{{\s*email\s*}}/g, email);
+let result = template .replace(/{{name}}/g, name) .replace(/{{position}}/g, position) .replace(/{{phone}}/g, phone) .replace(/{{email}}/g, email);
 
   document.getElementById("signature").innerHTML = result;
 }

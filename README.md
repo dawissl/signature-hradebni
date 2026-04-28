@@ -8,7 +8,7 @@ Jednoduchý nástroj pro generování e-mailových podpisů pro zaměstnance šk
 - kopírování podpisu jako formátovaného obsahu (funguje v Gmailu)
 
 ## 🚀 Použití
-1. Otevři stránku
+1. Otevři stránku https://dawissl.github.io/signature-hradebni/
 2. Vyplň údaje
 3. Klikni na „Kopírovat podpis“
 4. V Gmailu:

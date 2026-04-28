@@ -10,6 +10,7 @@ async function generate() {
     .replace("{{name}}", name)
     .replace("{{position}}", position)
     .replace("{{phone}}", phone)
+    .replace("{{email}}", email)
     .replace("{{email}}", email);
 
   document.getElementById("signature").innerHTML = result;
